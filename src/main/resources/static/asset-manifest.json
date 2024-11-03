@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/locationSearch/static/css/main.9f36abda.css",
+    "main.js": "/locationSearch/static/js/main.721ada0f.js",
+    "static/media/bars.jpg": "/locationSearch/static/media/bars.e3f3bb9b0e061df8e04d.jpg",
+    "static/media/test3.jpg": "/locationSearch/static/media/test3.36f1d6e70eb39401a741.jpg",
+    "static/media/tourist-attractions.jpg": "/locationSearch/static/media/tourist-attractions.ab0510d11034c0e606b3.jpg",
+    "static/media/restaurants.jpg": "/locationSearch/static/media/restaurants.cf391cc3aa9eb9035360.jpg",
+    "static/media/test4.jpg": "/locationSearch/static/media/test4.94a1ba09f73ee95a5fc2.jpg",
+    "index.html": "/locationSearch/index.html",
+    "main.9f36abda.css.map": "/locationSearch/static/css/main.9f36abda.css.map",
+    "main.721ada0f.js.map": "/locationSearch/static/js/main.721ada0f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f36abda.css",
+    "static/js/main.721ada0f.js"
+  ]
+}

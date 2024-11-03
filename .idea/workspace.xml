@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce608cc3-b8bf-4924-83fd-1dd48e64487b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/frontend/package.json" />
+  </component>
+  <component name="ProjectId" id="2gT5OKxKHpbLGkfhoxvFYKjmbMh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="ts.external.directory.path" value="C:\Users\Anh\Dokumente\group-4\frontend\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Anh\Dokumente\group-4\backend\src\main\resources\static\assets\images\products" />
+      <recent name="C:\Users\Anh\Dokumente\group-4\backend\src\main\resources\static\citizen-dev-location_search" />
+      <recent name="C:\Users\Anh\Dokumente\group-4\backend\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anh\Desktop\group-4-test-react\src\main\resources\tessdata" />
+      <recent name="C:\Users\Anh\Desktop\group-4-test-react\src\main\resources" />
+      <recent name="C:\Users\Anh\Dokumente\group-4\backend\src\main\resources\templates" />
+      <recent name="C:\Users\Anh\Dokumente\group-4\backend\src\main\resources\static" />
+      <recent name="C:\Users\Anh\Dokumente\group-4\backend" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LocationSearchApplication (3)">
+    <configuration name="citizendev-spring-0.0.1-SNAPSHOT.jar (1)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/backend/target/citizendev-spring-0.0.1-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="citizendev-spring-0.0.1-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/citizendev-spring-0.0.1-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="citizendev-spring-1.0.0.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/backend/target/citizendev-spring-1.0.0.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/group-4/citizendev-spring/static/citizen-dev-location_search/browser/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="LocationSearchApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="citizendev-spring (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="citizen.dev.location_search.LocationSearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocationSearchApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="group-4-test-react" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="citizen.dev.location_search.LocationSearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocationSearchApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="locationSearchApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="citizen.dev.location_search.LocationSearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocationSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="citizendev-spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="citizen.dev.location_search.LocationSearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name=".docker/Dockerfile backend-builder" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="--target backend-builder" />
+          <option name="buildKitEnabled" value="true" />
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value=".docker/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker..docker/Dockerfile backend-builder" />
+      <item itemvalue="JAR Application.citizendev-spring-1.0.0.jar" />
+      <item itemvalue="JAR Application.citizendev-spring-0.0.1-SNAPSHOT.jar" />
+      <item itemvalue="JAR Application.citizendev-spring-0.0.1-SNAPSHOT.jar (1)" />
+      <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="npm.Angular CLI Server" />
+      <item itemvalue="Spring Boot.LocationSearchApplication" />
+      <item itemvalue="Spring Boot.LocationSearchApplication (1)" />
+      <item itemvalue="Spring Boot.LocationSearchApplication (2)" />
+      <item itemvalue="Spring Boot.LocationSearchApplication (3)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.citizendev-spring-0.0.1-SNAPSHOT.jar" />
+        <item itemvalue="JAR Application.citizendev-spring-0.0.1-SNAPSHOT.jar (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JAR Application.citizendev-spring-1.0.0.jar" />
+        <item itemvalue="Docker..docker/Dockerfile backend-builder" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce608cc3-b8bf-4924-83fd-1dd48e64487b" name="Changes" comment="" />
+      <created>1715708694100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715708694100</updated>
+      <workItem from="1715708695439" duration="427000" />
+      <workItem from="1715709489926" duration="1124000" />
+      <workItem from="1715711122393" duration="1949000" />
+      <workItem from="1715715377555" duration="692000" />
+      <workItem from="1715901002218" duration="3029000" />
+      <workItem from="1715904063242" duration="2346000" />
+      <workItem from="1715906435641" duration="5513000" />
+      <workItem from="1716061824577" duration="1364000" />
+      <workItem from="1716063211049" duration="18443000" />
+      <workItem from="1716112225767" duration="4658000" />
+      <workItem from="1716128908782" duration="54000" />
+      <workItem from="1716128971267" duration="1336000" />
+      <workItem from="1716130371231" duration="1200000" />
+      <workItem from="1716198704016" duration="1224000" />
+      <workItem from="1716215344154" duration="16771000" />
+      <workItem from="1716283366602" duration="3609000" />
+      <workItem from="1716287024073" duration="24977000" />
+      <workItem from="1716332377334" duration="116000" />
+      <workItem from="1716332502633" duration="410000" />
+      <workItem from="1716332922594" duration="1265000" />
+      <workItem from="1716334204661" duration="1476000" />
+      <workItem from="1716335700349" duration="4586000" />
+      <workItem from="1717757162827" duration="3585000" />
+      <workItem from="1717849302509" duration="7457000" />
+      <workItem from="1717859504962" duration="4342000" />
+      <workItem from="1718012915652" duration="4618000" />
+      <workItem from="1718063004267" duration="1989000" />
+      <workItem from="1718187666808" duration="2355000" />
+      <workItem from="1718190635036" duration="612000" />
+      <workItem from="1718368311155" duration="819000" />
+      <workItem from="1718369664168" duration="660000" />
+      <workItem from="1718966526505" duration="6122000" />
+      <workItem from="1719018115894" duration="312000" />
+      <workItem from="1719186396303" duration="6851000" />
+      <workItem from="1719228123094" duration="7536000" />
+      <workItem from="1719329993753" duration="10510000" />
+      <workItem from="1719395150663" duration="190000" />
+      <workItem from="1719399432184" duration="4438000" />
+      <workItem from="1727797145944" duration="620000" />
+      <workItem from="1730593343420" duration="140000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

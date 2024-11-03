@@ -1,0 +1,194 @@
+asyncapi: '2.6.0'
+info:
+  title: Streetlights Kafka API
+  version: '1.0.0'
+  description: |
+    The Citizen Development API allows you to retrieve information related to LOD. We are using SPARQL Queries to query through RDF results, to get a structured representation of informations. For example we want to get the input as an address or as coordinates as a string , through those queries we want to get information from the location, characteristics, locations of restaurants, cafes, city attractions, etc.
+
+    ### Check out its awesome features:
+
+    * retrieve LOD informations through an input as text or longitude/latitude (coordinates)🌃
+    * Serializiation of RDF  😎
+    * User Interaction 📈
+    * Access Linked Open Data (LOD) databases, intelligent query 📈
+    * Fetching essential informations about the location
+    * Fetching a list of city attractions
+    * Verify if address or coordinates
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0
+
+servers:
+  scram-connections:
+    url: test.mykafkacluster.org:18092
+    protocol: kafka-secure
+    description: Test broker secured with scramSha256
+    security:
+      - saslScram: []
+    tags:
+      - name: "env:test-scram"
+        description: "This environment is meant for running internal tests through scramSha256"
+      - name: "kind:remote"
+        description: "This server is a remote server. Not exposed by the application"
+      - name: "visibility:private"
+        description: "This resource is private and only available to certain users"
+  mtls-connections:
+    url: test.mykafkacluster.org:28092
+    protocol: kafka-secure
+    description: Test broker secured with X509
+    security:
+      - certs: []
+    tags:
+      - name: "env:test-mtls"
+        description: "This environment is meant for running internal tests through mtls"
+      - name: "kind:remote"
+        description: "This server is a remote server. Not exposed by the application"
+      - name: "visibility:private"
+        description: "This resource is private and only available to certain users"
+
+defaultContentType: application/json
+
+channels:
+  citizen.development.1.0.action.{inputName}.retrieve.lod.information:
+    description: The topic on which measured values may be produced and consumed.
+    parameters:
+      inputName:
+        $ref: '#/components/parameters/inputName'
+    publish:
+      summary: Retrieving level of detail information about a certain location, building, etc.
+      operationId: retrieveLODinformation
+      traits:
+        - $ref: '#/components/operationTraits/kafka'
+      message:
+        $ref: '#/components/messages/locationData'
+
+  citizen.development.1.0.event.{endpoint}.{query}.access.lod:
+    description: Access Linked Open Data (LOD) databases and perform intelligent queries
+    parameters:
+      query:
+        $ref: '#/components/parameters/query'
+      endpoint:
+        $ref: '#/components/parameters/endpoint'
+
+    publish:
+      summary: Inform about environmental lighting conditions of a particular streetlight.
+      operationId: retrieveLODInformation
+      traits:
+        - $ref: '#/components/operationTraits/kafka'
+      message:
+        $ref: '#/components/messages/rdfBasedResults'
+
+components:
+  messages:
+    locationData:
+      name: locationLOD
+      title: retrieved level of detail info
+      summary: Inform about essential information specific to the location
+      contentType: application/json
+      traits:
+        - $ref: '#/components/messageTraits/commonHeaders'
+      payload:
+        $ref: "#/components/schemas/LODData"
+    rdfBasedResults:
+      name: RDFbasedResults
+      title: retrieved RDF through query from database
+      summary: Returning rdf based query results
+      contentType: application/json
+      traits:
+        - $ref: '#/components/messageTraits/commonHeaders'
+      payload:
+        $ref: "#/components/schemas/RDFBasedResults"
+
+  schemas:
+    LODData:
+      type: object
+      properties:
+        history:
+          type: string
+          minimum: 0
+          description: Retrieving information about the history of the location
+        nearbyCafes:
+          type: array
+          items:
+            type: string
+          minimum: 0
+          description: Retrieving nearby coordinates or location of nearby cafes
+        nearbyRestaurants:
+          type: array
+          items:
+            type: string
+          description: Retrieving nearby coordinates or location of nearby restaurants
+        nearbyBars:
+          type: array
+          items:
+            type: string
+          description: Retrieving nearby coordinates or location of nearby bars
+        nearbyAttractions:
+          type: array
+          items:
+            type: string
+          description: Retrieving nearby coordinates or location of nearby city attractions
+        sentAt:
+          $ref: "#/components/schemas/sentAt"
+    RDFBasedResults:
+      type: object
+      properties:
+        linkedData:
+          type: string
+          minimum: 0
+          description: Retrieving JSON LD through intelligent queries like SPARQL
+        sentAt:
+          $ref: "#/components/schemas/sentAt"
+    sentAt:
+      type: string
+      format: date-time
+      description: Date and time when the message was sent.
+
+  securitySchemes:
+    saslScram:
+      type: scramSha256
+      description: Provide your username and password for SASL/SCRAM authentication
+    certs:
+      type: X509
+      description: Download the certificate files from service provider
+
+  parameters:
+    inputName:
+      description: The input of the location or coordinates as text.
+      schema:
+        type: string
+    query:
+      description: SPARQL query to retrieve information from LOD sources.
+      schema:
+        type: string
+    endpoint:
+      description: URL of the LOD database endpoint (optional).
+      schema:
+        type: string
+    graphData:
+      description: JSON LD data to be serialized
+      schema:
+        type: object
+    format:
+      description: Serialization for the RDF Data
+      schema:
+        type: string
+        enum: [rdfxml, turtle, jsonld, ntriples]
+
+  messageTraits:
+    commonHeaders:
+      headers:
+        type: object
+        properties:
+          my-app-header:
+            type: integer
+            minimum: 0
+            maximum: 100
+
+  operationTraits:
+    kafka:
+      bindings:
+        kafka:
+          clientId:
+            type: string
+            enum: ['my-app-id']
