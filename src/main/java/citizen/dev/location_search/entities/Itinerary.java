@@ -2,7 +2,9 @@ package citizen.dev.location_search.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -12,6 +14,8 @@ import java.util.List;
 @Table(name = "itneraries")
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
+@Setter
 public class Itinerary {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -21,7 +25,7 @@ public class Itinerary {
     private LocalDate endDate;
 
     @ManyToOne
-    @JoinColumn("user_id")
+    @JoinColumn(name = "user_id")
     private User user;
 
     @ManyToMany
@@ -30,52 +34,4 @@ public class Itinerary {
             joinColumns = @JoinColumn(name = "itnerary_id"),
             inverseJoinColumns = @JoinColumn(name = "poi_id"))
     private List<PointOfInterest> pointOfInterests;
-
-    public Long getId() {
-        return Id;
-    }
-
-    public void setId(Long id) {
-        Id = id;
-    }
-
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public LocalDate getStartDate() {
-        return startDate;
-    }
-
-    public void setStartDate(LocalDate startDate) {
-        this.startDate = startDate;
-    }
-
-    public LocalDate getEndDate() {
-        return endDate;
-    }
-
-    public void setEndDate(LocalDate endDate) {
-        this.endDate = endDate;
-    }
-
-    public List<PointOfInterest> getPointOfInterests() {
-        return pointOfInterests;
-    }
-
-    public void setPointOfInterests(List<PointOfInterest> pointOfInterests) {
-        this.pointOfInterests = pointOfInterests;
-    }
 }

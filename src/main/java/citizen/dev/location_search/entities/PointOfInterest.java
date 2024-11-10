@@ -24,6 +24,7 @@ public class PointOfInterest {
     private String openingHours;
 
     @ManyToOne
+    @JoinColumn(name = "location_id")
     private Location location;
 
     @OneToMany(mappedBy = "pointOfInterest")
@@ -35,14 +36,9 @@ public class PointOfInterest {
 
     @OneToMany(mappedBy = "pointOfInterest")
     private List<NearbyService> nearbyServices; // Services around the POI
-
-    @ManyToOne
-    @JoinColumn(name = "location_id")
-    private Location location; // The location this POI belongs to
-
+    
     @OneToMany(mappedBy = "pointOfInterest")
     private List<Photo> photos; // Photos associated with this POI
-
 
     public Long getId() {
         return Id;
@@ -66,14 +62,6 @@ public class PointOfInterest {
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public String getCategory() {
-        return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
     }
 
     public String getLatitude() {
@@ -106,5 +94,45 @@ public class PointOfInterest {
 
     public void setOpeningHours(String openingHours) {
         this.openingHours = openingHours;
+    }
+
+    public Location getLocation() {
+        return location;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
+    }
+
+    public List<Photo> getPhotos() {
+        return photos;
+    }
+
+    public void setPhotos(List<Photo> photos) {
+        this.photos = photos;
+    }
+
+    public List<Review> getReviews() {
+        return reviews;
+    }
+
+    public void setReviews(List<Review> reviews) {
+        this.reviews = reviews;
+    }
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+
+    public List<NearbyService> getNearbyServices() {
+        return nearbyServices;
+    }
+
+    public void setNearbyServices(List<NearbyService> nearbyServices) {
+        this.nearbyServices = nearbyServices;
     }
 }
