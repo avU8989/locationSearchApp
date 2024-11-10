@@ -25,8 +25,8 @@ public class Itinerary {
     private LocalDate endDate;
 
     @ManyToOne
-    @JoinColumn(name = "user_id")
-    private User user;
+    @JoinColumn(name = "account_id")
+    private Account account;
 
     @ManyToMany
     @JoinTable(

@@ -2,7 +2,9 @@ package citizen.dev.location_search.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.time.LocalDateTime;
 
@@ -11,6 +13,8 @@ import java.time.LocalDateTime;
 @Table(name = "photos")
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
+@Setter
 public class Photo {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
