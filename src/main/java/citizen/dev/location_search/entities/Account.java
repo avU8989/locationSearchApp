@@ -24,7 +24,7 @@ public class Account {
     private String surname;
 
     @Column(nullable = false)
-    private String firstName;
+    private String firstname;
 
     @Column(nullable = false, unique = true)
     private String email;
@@ -49,7 +49,7 @@ public class Account {
         return "Account{" +
                 "id='" + id + '\'' +
                 ", surname='" + surname + '\'' +
-                ", firstName='" + firstName + '\'' +
+                ", firstName='" + firstname + '\'' +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 ", birthday=" + birthday +

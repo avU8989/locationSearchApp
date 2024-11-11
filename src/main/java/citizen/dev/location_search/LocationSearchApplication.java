@@ -7,13 +7,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 
 @SpringBootApplication
 @EnableAsync
-@ComponentScan(basePackages = {
-    "citizen.dev.location_search",
-    "citizen.dev.location_search.config",
-    "citizen.dev.location_search.controller",
-    "citizen.dev.location_search.services",
-    "citizen.dev.location_search.repository"
-})
+@ComponentScan(basePackages = {"citizen.dev.location_search", "test_clients"})
 public class LocationSearchApplication {
     public static void main(String[] args) {
         SpringApplication.run(LocationSearchApplication.class, args);

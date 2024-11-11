@@ -5,64 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce608cc3-b8bf-4924-83fd-1dd48e64487b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/CustomUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/exceptions/ErrorDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/exceptions/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/exceptions/InvalidBirthdayException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/exceptions/InvalidEmailException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/exceptions/InvalidPasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/exceptions/InvalidSurnameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/exceptions/UserAccountAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/exceptions/UserAccountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/exceptions/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/repository/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/security/JwtTokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/services/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/validators/EntityValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/validators/UserAccountValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UserServiceDatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95840731-0932-4e19-a847-8bbed9073b62.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/95840731-0932-4e19-a847-8bbed9073b62.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/TestClientInGroovyUserAccount.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_clients/UserAccountRestAPITestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_clients/UserAccountRestAPITestImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_utils/BaseFullContextTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_utils/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_utils/TestRESTOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_utils/TestRestOperationsImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/CoordinatesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/coordinates/CoordinatesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/LocationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/images/LocationImageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/LocationSearchController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/NearbyBarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/nearbyservices/NearbyBarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/NearbyRestaurantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/nearbyservices/NearbyRestaurantController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/NearbySightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/nearbyservices/NearbySightController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/NearbyTouristAttractionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/nearbyservices/NearbyTouristAttractionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/OCRController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/ocr/OCRController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/SPARQLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/SPARQLController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/Itinerary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/Itinerary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/NearbyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/NearbyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/Photo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/Photo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/PointOfInterest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/PointOfInterest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/UserPreferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/UserPreferences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/css/main.9f36abda.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/css/main.9f36abda.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/omilab/dummy_service/test/DummyServiceTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/citizen/dev/location_search/controller/CoordinatesController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/citizen/dev/location_search/controller/LocationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/citizen/dev/location_search/controller/LocationSearchController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/citizen/dev/location_search/controller/NearbyBarController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/citizen/dev/location_search/controller/NearbyRestaurantController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/citizen/dev/location_search/controller/NearbySightController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/citizen/dev/location_search/controller/NearbyTouristAttractionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/citizen/dev/location_search/controller/OCRController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/citizen/dev/location_search/controller/SPARQLController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/citizen/dev/location_search/controller/SPARQLController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/citizen/dev/location_search/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/static/css/main.9f36abda.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/static/css/main.9f36abda.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/omilab/dummy_service/test/DummyServiceTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/LocationSearchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/LocationSearchApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserServiceDatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserServiceDatabaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/citizen/dev/location_search/LocationSearchApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/citizen/dev/location_search/LocationSearchApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +131,36 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceDatabaseTest">
+  <component name="RunManager" selected="JUnit.TestClientInGroovyUserAccount.createNewAccount">
+    <configuration name="TestClientInGroovyUserAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="locationSearchApp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClientInGroovyUserAccount" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClientInGroovyUserAccount.createAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="locationSearchApp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClientInGroovyUserAccount" />
+      <option name="METHOD_NAME" value="createAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClientInGroovyUserAccount.createNewAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="locationSearchApp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClientInGroovyUserAccount" />
+      <option name="METHOD_NAME" value="createNewAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserServiceDatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="locationSearchApp" />
       <option name="PACKAGE_NAME" value="" />
@@ -193,24 +179,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="UserServiceTest.saveAccount_shouldCreateAccountSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="locationSearchApp" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
-      <option name="METHOD_NAME" value="saveAccount_shouldCreateAccountSuccessfully" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="citizendev-spring-0.0.1-SNAPSHOT.jar (1)" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/backend/target/citizendev-spring-0.0.1-SNAPSHOT.jar" />
-      <method v="2" />
-    </configuration>
-    <configuration name="citizendev-spring-0.0.1-SNAPSHOT.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/target/citizendev-spring-0.0.1-SNAPSHOT.jar" />
-      <method v="2" />
     </configuration>
     <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
       <method v="2" />
@@ -254,25 +222,25 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JAR Application.citizendev-spring-0.0.1-SNAPSHOT.jar" />
-      <item itemvalue="JAR Application.citizendev-spring-0.0.1-SNAPSHOT.jar (1)" />
       <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="JUnit.UserServiceDatabaseTest.saveAccount_shouldSaveToDatabase" />
+      <item itemvalue="JUnit.UserServiceDatabaseTest" />
       <item itemvalue="npm.Angular CLI Server" />
       <item itemvalue="Spring Boot.LocationSearchApplication" />
       <item itemvalue="Spring Boot.LocationSearchApplication (1)" />
       <item itemvalue="Spring Boot.LocationSearchApplication (2)" />
       <item itemvalue="Spring Boot.LocationSearchApplication (3)" />
-      <item itemvalue="JUnit.UserServiceTest.saveAccount_shouldCreateAccountSuccessfully" />
-      <item itemvalue="JUnit.UserServiceDatabaseTest.saveAccount_shouldSaveToDatabase" />
-      <item itemvalue="JUnit.UserServiceDatabaseTest" />
+      <item itemvalue="JUnit.TestClientInGroovyUserAccount.createNewAccount" />
+      <item itemvalue="JUnit.TestClientInGroovyUserAccount" />
+      <item itemvalue="JUnit.TestClientInGroovyUserAccount.createAccount" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestClientInGroovyUserAccount.createNewAccount" />
+        <item itemvalue="JUnit.TestClientInGroovyUserAccount.createAccount" />
+        <item itemvalue="JUnit.TestClientInGroovyUserAccount" />
         <item itemvalue="JUnit.UserServiceDatabaseTest" />
         <item itemvalue="JUnit.UserServiceDatabaseTest.saveAccount_shouldSaveToDatabase" />
-        <item itemvalue="JUnit.UserServiceTest.saveAccount_shouldCreateAccountSuccessfully" />
-        <item itemvalue="JAR Application.citizendev-spring-0.0.1-SNAPSHOT.jar" />
-        <item itemvalue="JAR Application.citizendev-spring-0.0.1-SNAPSHOT.jar (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -331,6 +299,7 @@
       <workItem from="1731250392788" duration="24000" />
       <workItem from="1731251359487" duration="602000" />
       <workItem from="1731264945322" duration="8660000" />
+      <workItem from="1731318282917" duration="7509000" />
     </task>
     <servers />
   </component>

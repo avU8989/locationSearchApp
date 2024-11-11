@@ -11,7 +11,7 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@SpringBootTest(classes = LocationSearchApplication.class)  // Replace with your main application class
+@SpringBootTest(classes = LocationSearchApplication.class)
 public class UserServiceDatabaseTest {
     @Autowired
     private UserService userService;
@@ -21,18 +21,15 @@ public class UserServiceDatabaseTest {
 
     @Test
     void saveAccount_shouldSaveToDatabase() {
-        // Arrange
         Account account = new Account();
         account.setEmail("test@example.com");
         account.setPassword("password123");
         account.setSurname("Doe");
-        account.setFirstName("John");
+        account.setFirstname("John");
         account.setBirthday(LocalDate.of(1990, 1, 1));
 
-        // Act
         userService.saveAccount(account);
 
-        // Assert
         Optional<Account> savedAccount = accountRepository.findByEmail("test@example.com");
         assertTrue(savedAccount.isPresent(), "Account should be present in the database");
 

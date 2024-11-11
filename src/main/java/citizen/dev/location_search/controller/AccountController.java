@@ -55,7 +55,6 @@ public class AccountController {
     )
     @RequestMapping(
             method = RequestMethod.POST,
-            value = "/accounts",
             produces = {"application/json"},
             consumes = {"application/json"}
     )
