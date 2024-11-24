@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce608cc3-b8bf-4924-83fd-1dd48e64487b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/TestClientInGroovyUserAccount.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_clients/UserAccountRestAPITestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_clients/UserAccountRestAPITestImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_utils/BaseFullContextTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_utils/TestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_utils/TestRESTOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_utils/TestRestOperationsImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/LocationSearchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/LocationSearchApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/citizen/dev/location_search/entities/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserServiceDatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserServiceDatabaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/citizen/dev/location_search/LocationSearchApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/citizen/dev/location_search/LocationSearchApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,14 +211,14 @@
       <item itemvalue="JavaScript Debug.Angular Application" />
       <item itemvalue="JUnit.UserServiceDatabaseTest.saveAccount_shouldSaveToDatabase" />
       <item itemvalue="JUnit.UserServiceDatabaseTest" />
+      <item itemvalue="JUnit.TestClientInGroovyUserAccount.createNewAccount" />
+      <item itemvalue="JUnit.TestClientInGroovyUserAccount" />
+      <item itemvalue="JUnit.TestClientInGroovyUserAccount.createAccount" />
       <item itemvalue="npm.Angular CLI Server" />
       <item itemvalue="Spring Boot.LocationSearchApplication" />
       <item itemvalue="Spring Boot.LocationSearchApplication (1)" />
       <item itemvalue="Spring Boot.LocationSearchApplication (2)" />
       <item itemvalue="Spring Boot.LocationSearchApplication (3)" />
-      <item itemvalue="JUnit.TestClientInGroovyUserAccount.createNewAccount" />
-      <item itemvalue="JUnit.TestClientInGroovyUserAccount" />
-      <item itemvalue="JUnit.TestClientInGroovyUserAccount.createAccount" />
     </list>
     <recent_temporary>
       <list>
@@ -299,7 +285,10 @@
       <workItem from="1731250392788" duration="24000" />
       <workItem from="1731251359487" duration="602000" />
       <workItem from="1731264945322" duration="8660000" />
-      <workItem from="1731318282917" duration="7509000" />
+      <workItem from="1731318282917" duration="10012000" />
+      <workItem from="1731600425966" duration="546000" />
+      <workItem from="1731600985720" duration="6000" />
+      <workItem from="1732061485125" duration="57000" />
     </task>
     <servers />
   </component>
